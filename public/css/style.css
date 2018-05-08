@@ -44,9 +44,18 @@ body{
     body{
         font-size:3em;
     }
-    
+
     .child{
         width:80%;
+        text-align: center;
+    }
+
+    input[type=file] {
+        font-size:0.5em;
+    }
+
+    .btn{
+        font-size:0.5em;
     }
 }
 
