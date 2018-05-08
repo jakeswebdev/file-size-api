@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link href="/public/css/style.css" rel="stylesheet" type="text/css">
+        <title>File Metadata API</title>
+    </head>
+  <body>
+    <div class='parent'>
+        <div class='child'>
+            <div class="text">
+                <h2>Welcome to the File Metadata API.</h2>
+                Upload a file using the buttons below and recieve a response with the file's size formatted in json.
+            </div>   
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <div class='form-div'>
+                    <label for="file"></label>
+                    <input type="file" id="file" name="myFile">
+                </div>
+                <div class='button-div'>
+                    <button class="btn">Upload</button>
+                </div>
+            </form>
+        </div>
+    </div>
+  </body>
+</html>

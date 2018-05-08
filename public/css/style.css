@@ -1,0 +1,54 @@
+body{
+    background-color: #00171F;
+    color:#007EA7;
+    font-family: 'Varela Round', sans-serif;
+    font-size:1.4em;
+    
+}
+.parent, html, body{
+    height: 100%;
+    
+    margin:0;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: nowrap;
+}
+  
+.child {
+    
+    word-wrap: break-word;
+    width: 50%;  /* Or whatever */
+    height: auto; /* Or whatever */
+    margin: auto;  /* Magic! */
+    background-color: #FFFFFF;
+}
+
+.button-div{
+    text-align:center;
+    padding:2%;
+}
+
+.form-div{
+    padding-top:3.5%;
+    text-align:center;
+}
+
+.text{
+    text-align:center;
+}
+
+@media screen and (max-width:1024px){
+
+    body{
+        font-size:3em;
+    }
+    
+    .child{
+        width:80%;
+    }
+}
+
+
+  
